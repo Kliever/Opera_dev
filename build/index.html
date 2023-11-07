@@ -1,7 +1,14 @@
-@@include('../src/assets/html/main-modules/head.html', {
-"title": "Opera GX",
-"styleHref": "css/style.css",
-})
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opera GX</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;700&display=swap&_v=20231107190034" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?_v=20231107190034">
+</head>
 
 <body id="scrollbar">
 
@@ -319,7 +326,7 @@
       </div>
     </div>
     <div class="main__stars js-parallax-container" data-rotateZ="0.5/0" data-translateX="5/0" data-translateY="0/5" data-viewport="1400/760">
-      <img class="js-parallax-item" src="@img/bg-stars.png" alt="">
+      <picture><source srcset="assets/img/bg-stars.webp" type="image/webp"><img class="js-parallax-item" src="assets/img/bg-stars.png" alt=""></picture>
     </div>
     <div class="main__gradient"></div>
   </section>
@@ -327,7 +334,7 @@
 
 
 
-  <script src="assets/js/main.js"></script>
+  <script src="/assets/js/main.js?_v=20231107190034"></script>
 </body>
 <div ></div>
 
